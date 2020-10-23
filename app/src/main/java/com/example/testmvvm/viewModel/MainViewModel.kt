@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import com.example.testmvvm.model.DataModel
 
 
-class MainViewModel {
+class MainViewModel: ViewModel() {
 
     private var dataModel: DataModel = DataModel()
 
